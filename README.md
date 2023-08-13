@@ -1,11 +1,11 @@
-About timerit
-=============
+About timerit-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/timerit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Erotemic/timerit
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/timerit-feedstock/blob/main/LICENSE.txt)
 
 Summary: A powerful multiline alternative to timeit
 
