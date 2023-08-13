@@ -1,5 +1,5 @@
 {% set name = "timerit" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/timerit-{{ version }}.tar.gz
-  sha256: 55854c1867f4e0b680213baaff78a2c170564b9f929aa8fa24221b15afe2c801
+  sha256: a12a7db82d8cc6a0e1bc3258e6eead7a21c617da5605083118d5c3e99927fb69
 
 build:
   noarch: python
