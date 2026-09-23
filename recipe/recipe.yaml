@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: timerit
-  version: 1.1.0
+  version: "1.2.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/timerit-${{ version }}.tar.gz
-  sha256: a12a7db82d8cc6a0e1bc3258e6eead7a21c617da5605083118d5c3e99927fb69
+  sha256: 735194b3ac1e06764d65344d2325fb5fc6b3e9a737ae157a6012f453c2bd394a
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
